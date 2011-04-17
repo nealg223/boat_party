@@ -1,35 +1,121 @@
 body {
-  background: blue; 
+  background: #2D2B5D url("../images/flier_bg.png") no-repeat scroll center top;
+  margin:50px 0px; 
+  padding:10px;
+  text-align:center;
+  font-family: 'Josefin Sans', 'Josefin Slab', Helvetica, sans-serif;
+}
+
+#container {
+	width:600px;
+	margin:0px auto;
+	padding:15px;
+}
+
+
+header {
+	position:	relative;
+}
+
+#uselogo {
+	bottom: 80px;
+    float: left;
+    left: 20px;
+    position: relative;
+    width: 100px;
+	
 }
 
 h1 {
-  font-size: 10em;
+  	bottom: 56px;
+    color: white;
+    font-size: 2.5em;
+    font-weight: 700;
+    position: relative;
+    text-shadow: 2px 2px 2px #F07800;
 }
 
-<style type="text/css">
-
-/*Credits: Dynamic Drive CSS Library */
-/*URL: http://www.dynamicdrive.com/style/ */
-
-.hovergallery img{
--webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
--moz-transform:scale(0.8); /*Mozilla scale version*/
--o-transform:scale(0.8); /*Opera scale version*/
--webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
--moz-transition-duration: 0.5s; /*Mozilla duration version*/
--o-transition-duration: 0.5s; /*Opera duration version*/
-opacity: 0.7; /*initial opacity of images*/
-margin: 0 10px 5px 0; /*margin between images*/
+h3 {
+	bottom: 80px;
+    color: yellow;
+    font-family: 'Josefin Sans';
+    font-size: 1.5em;
+    left: 75px;
+    position: relative;
 }
 
-.hovergallery img:hover{
--webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
--moz-transform:scale(1.1); /*Mozilla scale version*/
--o-transform:scale(1.1); /*Opera scale version*/
-box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
--webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
--moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
-opacity: 1;
+h4 {
+	font-size: 1em;
+	font-family: 'Josefin Slab';
 }
 
-</style>
+#event_info {
+	background-color: rgba(240, 120, 0, 0.6);
+    padding: 1em;
+    position: relative;
+    width: 375px;
+    left: 100px;
+}
+
+	#event_info h2 {
+		color: white;
+	    font-family: 'Josefin Slab';
+	    font-size: 2em;
+	    font-weight: normal;
+	}
+	
+	#event_info h4 {
+		color: white;
+}
+	
+
+#event_features {
+	position: relative;
+	top: -4px;
+}
+
+	#event_features h3 {
+	 color: white;
+    font-family: 'Josefin Slab';
+    left: -3px;
+    top: -18px;
+}
+
+	#bracket_left {
+		 position: relative;
+	    right: 39px;
+	    top: 59px;
+}
+	#bracket_right {
+		left: 34px;
+	    position: relative;
+	    top: 50px;
+}
+
+	.features {
+		display: inline;
+    	position: relative;
+   		top: -32px;
+    	width: 120px;
+	}
+
+footer {
+	clear: both;
+}
+
+	#text_bg {
+		background-color: black;
+    	padding: 0.2em;
+    	position: relative;
+    	top: 12px;
+	    
+	    border-radius: 33px 33px 0 0;
+	    -moz-border-radius: 33px 33px 0 0;
+	    -webkit-border-radius: 33px 33px 0 0;
+}
+
+	#text_bg p {
+		color: white;
+		text-align: center;
+		width: 600px;
+}
