@@ -55,6 +55,7 @@ h4 {
     position: relative;
     width: 375px;
     left: 100px;
+    top: -4px;
 }
 
 	#event_info h2 {
@@ -71,7 +72,7 @@ h4 {
 
 #event_features {
 	position: relative;
-	top: -4px;
+    top: -32px;
 }
 
 	#event_features h3 {
@@ -107,11 +108,11 @@ footer {
 		background-color: black;
     	padding: 0.2em;
     	position: relative;
-    	top: 12px;
+    	bottom: 59px;
 	    
-	    border-radius: 33px 33px 0 0;
-	    -moz-border-radius: 33px 33px 0 0;
-	    -webkit-border-radius: 33px 33px 0 0;
+	    border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    -webkit-border-radius: 5px;
 }
 
 	#text_bg p {
