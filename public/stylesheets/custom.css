@@ -12,19 +12,7 @@ body {
 	padding:15px;
 }
 
-
-header {
-	position:	relative;
-}
-
-#uselogo {
-	bottom: 80px;
-    float: left;
-    left: 20px;
-    position: relative;
-    width: 100px;
-	
-}
+/*------ Global Styles --------*/
 
 h1 {
   	bottom: 56px;
@@ -49,6 +37,32 @@ h4 {
 	font-family: 'Josefin Slab';
 }
 
+a {
+	color: #DDDDDD;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+a:hover {
+	color: #000;
+}
+
+
+
+
+header {
+	position:	relative;
+}
+
+#uselogo {
+	bottom: 80px;
+    float: left;
+    left: 20px;
+    position: relative;
+    width: 100px;
+	
+}
+
 #event_info {
 	background-color: rgba(240, 120, 0, 0.6);
     padding: 1em;
@@ -58,11 +72,14 @@ h4 {
     top: -4px;
 }
 
+
+
 	#event_info h2 {
 		color: white;
 	    font-family: 'Josefin Slab';
 	    font-size: 2em;
 	    font-weight: normal;
+		text-shadow: 2px 2px 4px #000;
 	}
 	
 	#event_info p {
